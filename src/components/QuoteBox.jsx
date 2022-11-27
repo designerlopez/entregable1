@@ -1,3 +1,4 @@
+import React from "react"
 import QuoteButton from "./QuoteButton"
 
 const QuoteBox = ({quote, getNewValues, bgObject, crObj}) => {

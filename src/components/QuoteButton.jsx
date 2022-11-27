@@ -1,4 +1,4 @@
-
+import React from "react"
 const QuoteButton = ({getNewValues, bgObject}) => {
   return (
     <button onClick={getNewValues} style={bgObject}>

@@ -1,8 +1,9 @@
-
+import React from "react"
 import QuoteBox from "./components/QuoteBox"
 import quoteDB from "./db/quotes.json"
 import colors from "./db/colors.js"
 import { useState } from "react"
+
 
 function App() {
   const getRandomElement=(array)=>{
